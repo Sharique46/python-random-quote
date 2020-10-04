@@ -7,8 +7,11 @@ def primary():
   f.close()
 
   last = 16
-  rnd = random.randint(0, last)
+  first = 8
+  rnd = random.randint(0, first)
+  rnd2 = random.randint(7, last)
   print(quotes[rnd])
+  print(quotes[rnd2])
 
 if __name__== "__main__":
   primary()
