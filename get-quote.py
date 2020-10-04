@@ -9,7 +9,7 @@ def primary():
   last = 16
   first = 8
   rnd = random.randint(0, first)
-  rnd2 = random.randint(7, last)
+  rnd2 = random.randint(8, last)
   print(quotes[rnd])
   print(quotes[rnd2])
 
